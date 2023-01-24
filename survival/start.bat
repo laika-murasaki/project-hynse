@@ -9,7 +9,7 @@ echo Server are starting...
 SET Band=Hynse
 SET Instance=Survival
 SET ServerJar=purpur-1.19.3-1905
-SET Java=%LIGHT_JDK_18%/bin/java.exe
+SET Java="C:/Program Files/Eclipse Adoptium/jdk-19.0.1.10-hotspot/bin/java.exe"
 SET Memory=2048
 SET Port=2002
 SET Online=true
@@ -28,7 +28,7 @@ SET Flags_Low=--add-modules=jdk.incubator.vector -XX:+UseG1GC -XX:+ParallelRefPr
 title %Band% %Instance% - %ServerJar% - %Memory%
 
 :: Runtime
-%Java% -Xms%Memory%M -Xmx%Memory%M %Flags_Low% -Dcom.mojang.eula.agree=%Eula% -jar %ServerJar%.jar --nogui --port %Port% --online-mode %Online% --max-players %Max_Player% --server-name %Instance% motd= %Instance% --world-dir %Level% --bukkit-settings %Config%2_basic.yml --spigot-settings %Config%3_advanced.yml --config %Config%1_properties --purpur-settings %Config%4_customzie.yml --pufferfish-settings %Config%5_performance.yml
+%Java% -Xms%Memory%M -Xmx%Memory%M %Flags_Low% -Dcom.mojang.eula.agree=%Eula% -jar %ServerJar%.jar --nogui --port %Port% --online-mode %Online% --max-players %Max_Player% --server-name %Instance% motd= %Instance% --world-dir %Level% --bukkit-settings %Config%2_basic.yml --spigot-settings %Config%3_advanced.yml --config %Config%1_server.properties --purpur-settings %Config%4_customzie.yml --pufferfish-settings %Config%5_performance.yml
 ::-----------------------------------------
 
 ::misc
