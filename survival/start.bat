@@ -28,13 +28,13 @@ SET Flags_Low=--add-modules=jdk.incubator.vector -XX:+UseG1GC -XX:+ParallelRefPr
 title %Band% %Instance% - %ServerJar% - %Memory%
 
 :: Runtime
-%Java% -Xms%Memory%M -Xmx%Memory%M %Flags_Low% -Dcom.mojang.eula.agree=%Eula% -jar %ServerJar%.jar --nogui --port %Port% --online-mode %Online% --max-players %Max_Player% --server-name %Instance% motd= %Instance% --world-dir %Level% --bukkit-settings %Config%bukkit.yml --spigot-settings %Config%spigot.yml --config %Config%server.properties --purpur-settings %Config%purpur.yml --pufferfish-settings %Config%pufferfish.yml --paper-settings %Config%paper.yml
+%Java% -Xms%Memory%M -Xmx%Memory%M %Flags_Low% -Dcom.mojang.eula.agree=%Eula% -jar %ServerJar%.jar --nogui --port %Port% --online-mode %Online% --max-players %Max_Player% --server-name %Instance% motd= %Instance% --world-dir %Level% --bukkit-settings %Config%bukkit.yml --spigot-settings %Config%spigot.yml --config %Config%server.properties --purpur-settings %Config%purpur.yml --pufferfish-settings %Config%pufferfish.yml
 ::-----------------------------------------
 
 ::misc
 color 0c
 cls
-type stop
+type restart
 echo Server has stop restarting server...
 timeout /t 5 > nul
 cls
