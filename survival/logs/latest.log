@@ -1,0 +1,39 @@
+[17:32:01] [ServerMain/INFO]: Building unoptimized datafixer
+[17:32:03] [ServerMain/ERROR]: Failed to load properties from file: Modify\server.properties
+[17:32:03] [ServerMain/ERROR]: Failed to store properties to file: Modify\server.properties
+[17:32:03] [ServerMain/WARN]: Failed to load eula.txt
+[17:32:03] [ServerMain/INFO]: [STDERR]: You have used the Spigot command line EULA agreement flag.
+[17:32:03] [ServerMain/INFO]: [STDERR]: By using this setting you are indicating your agreement to Mojang's EULA (https://account.mojang.com/documents/minecraft_eula).
+[17:32:03] [ServerMain/INFO]: [STDERR]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[17:32:03] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:32:04] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[17:32:06] [ServerMain/INFO]: Loaded 7 recipes
+[17:32:07] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[17:32:07] [Server thread/INFO]: Loading properties
+[17:32:07] [Server thread/INFO]: This server is running Purpur version git-Purpur-1905 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: cac8a9b on HEAD)
+[17:32:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:32:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:32:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 5 worker threads, and gen parallelism of 5 threads
+[17:32:09] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (int)
+[17:32:09] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (float)
+[17:32:09] [Server thread/INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[17:32:09] [Server thread/INFO]: Default game type: SURVIVAL
+[17:32:09] [Server thread/INFO]: Generating keypair
+[17:32:09] [Server thread/INFO]: Starting Minecraft server on *:2002
+[17:32:09] [Server thread/INFO]: Using default channel type
+[17:32:09] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:32:09] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:32:12] [Server thread/INFO]: [spark] Loading spark v1.10.26
+[17:32:12] [Server thread/INFO]: Preparing level "world"
+[17:32:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:32:25] [Server thread/INFO]: Time elapsed: 1253 ms
+[17:32:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:32:25] [Server thread/INFO]: Time elapsed: 51 ms
+[17:32:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:32:25] [Server thread/INFO]: Time elapsed: 47 ms
+[17:32:25] [Server thread/INFO]: [spark] Enabling spark v1.10.26
+[17:32:26] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[17:32:26] [Server thread/INFO]: [spark] Starting background profiler...
+[17:32:26] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[17:32:26] [Server thread/INFO]: Running delayed init tasks
+[17:32:26] [Server thread/INFO]: Done (18.832s)! For help, type "help"
