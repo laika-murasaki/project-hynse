@@ -4,3 +4,6 @@
 # World: world_the_end (minecraft:the_end)
 
 _version: 30
+anticheat:
+  anti-xray:
+    enabled: false

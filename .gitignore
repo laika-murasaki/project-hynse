@@ -21,3 +21,4 @@ survival/config/paper-global.yml
 *.jar
 survival/plugins/spark/config.json
 survival/plugins/bStats/config.yml
+survival/eula.txt

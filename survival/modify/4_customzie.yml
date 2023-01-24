@@ -31,7 +31,7 @@ settings:
       run-with-scissors: <player> slipped and fell on their shears
       stonecutter: <player> has sawed themself in half
   clamp-attributes: true
-  use-alternate-keepalive: false
+  use-alternate-keepalive: true
   disable-give-dropping: false
   enchantment:
     allow-infinity-and-mending-together: false
@@ -299,13 +299,13 @@ world-settings:
       powered-rail:
         activation-range: 8
       sand:
-        fix-duping: true
+        fix-duping: false
       shulker_box:
         allow-oversized-stacks: false
       furnace:
         use-lava-from-underneath: false
       end_portal:
-        safe-teleporting: true
+        safe-teleporting: false
       packed_ice:
         allow-mob-spawns: true
       blue_ice:
@@ -1014,7 +1014,7 @@ world-settings:
         controllable: true
         attributes:
           max_health: 40.0
-        allow-griefing: true
+        allow-griefing: false
         can-despawn-with-held-block: false
         bypass-mob-griefing: false
         takes-damage-from-water: true
@@ -1420,7 +1420,7 @@ world-settings:
         exp-dropped-on-death:
           equation: expLevel * 7
           maximum: 100
-        teleport-if-outside-border: false
+        teleport-if-outside-border: true
         teleport-on-nether-ceiling-damage: false
         totem-of-undying-works-in-inventory: false
         fix-stuck-in-portal: false

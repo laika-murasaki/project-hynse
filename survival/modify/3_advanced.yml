@@ -58,10 +58,22 @@ advancements:
   disabled:
   - minecraft:story/disabled
 world-settings:
+  world:
+    mob-spawn-range: 6
+    simulation-distance: 6
+    view-distance: 6
+  world_nether:
+    mob-spawn-range: 6
+    simulation-distance: 6
+    view-distance: 6
+  world_the_end:
+    mob-spawn-range: 4
+    simulation-distance: 4
+    view-distance: 4
   default:
     below-zero-generation-in-existing-chunks: true
     nerf-spawner-mobs: false
-    mob-spawn-range: 8
+    mob-spawn-range: 6
     merge-radius:
       exp: 3.0
       item: 2.5
@@ -110,7 +122,7 @@ world-settings:
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
       villagers-active-for-panic: true
-      tick-inactive-villagers: true
+      tick-inactive-villagers: false
       ignore-spectators: false
     entity-tracking-range:
       players: 48
